@@ -26,53 +26,240 @@
 
     <main>
         <section class="hero">
-            <h1>Masa Depan Berkelanjutan Dimulai Di Sini</h1>
-            <p>Mengelola sampah demi lingkungan desa yang lebih bersih dan hijau.</p>
-            <a href="#about" class="btn">Pelajari Lebih Lanjut</a>
+            <div class="hero-content animate-on-scroll">
+                <h1>Masa Depan Berkelanjutan Dimulai Di Sini</h1>
+                <p>Mengelola sampah demi lingkungan desa yang lebih bersih dan hijau.</p>
+                <a href="#about" class="btn">Pelajari Lebih Lanjut</a>
+            </div>
         </section>
 
-        <section id="about" class="glass-container">
+        <section id="about" class="glass-container animate-on-scroll">
             <h2 class="section-title">Tentang Proyek</h2>
-            <!-- INSERT PROJECT DESCRIPTION HERE -->
             <p>Selamat datang di Proyek Pengelolaan Sampah. Misi kami adalah mengedukasi praktik pemilahan dan pengelolaan sampah yang berkelanjutan di komunitas kami. Dengan mengajak warga sekitar untuk mengetahui cara mengelola dan mendaur ulang sampah dengan lebih baik, kami bertujuan untuk menciptakan lingkungan hidup yang lebih sehat bagi semua warga.</p>
             <br>
             <p>Proyek ini melibatkan edukasi masyarakat, pengumpulan sampah rutin, dan fasilitas pemilahan dan penampungan sampah sementara. Kami percaya bahwa tindakan lokal yang kecil dapat memberikan dampak global yang besar.</p>
+            
+            <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1rem; color: var(--primary-color);">Jenis Sampah yang Kami Kelola</h3>
+            <div class="waste-badges">
+                <div class="waste-badge organic">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#43a047" stroke-width="2">
+                        <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a8 8 0 0 1 4.51 0l-3.95 3.95H2.05A10 10 0 1 0 12 2z"/>
+                        <path d="M12 22c-3.87 0-7-3.13-7-7h3c0 2.21 1.79 4 4 4s4-1.79 4-4h3c0 3.87-3.13 7-7 7z"/>
+                        <circle cx="12" cy="12" r="3"/>
+                    </svg>
+                    <span><strong>Organik</strong> - Sisa makanan, daun, ranting</span>
+                </div>
+                <div class="waste-badge anorganic">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#fb8c00" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2"/>
+                        <path d="M3 9h18M9 3v18"/>
+                    </svg>
+                    <span><strong>Anorganik</strong> - Plastik, kertas, kaleng</span>
+                </div>
+                <div class="waste-badge hazardous">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#e53935" stroke-width="2">
+                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                        <line x1="12" y1="9" x2="12" y2="13"/>
+                        <line x1="12" y1="17" x2="12.01" y2="17"/>
+                    </svg>
+                    <span><strong>B3</strong> - Baterai, lampu, limbah medis</span>
+                </div>
+            </div>
+            
+            <h3 style="text-align: center; margin-top: 3rem; margin-bottom: 1rem; color: var(--primary-color);">Manfaat Pengelolaan Sampah</h3>
+            <div class="feature-grid">
+                <div class="feature-card animate-on-scroll stagger-1">
+                    <div class="icon-container">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2">
+                            <path d="M3 3h18v18H3zM3 9h18M9 3v18"/>
+                        </svg>
+                    </div>
+                    <h4 class="feature-title">Lingkungan Bersih</h4>
+                    <p>Mengurangi pencemaran lingkungan dan menjaga kebersihan desa</p>
+                </div>
+                <div class="feature-card animate-on-scroll stagger-2">
+                    <div class="icon-container">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h4 class="feature-title">Ekonomi Berkelanjutan</h4>
+                    <p>Menciptakan peluang ekonomi melalui daur ulang dan kompos</p>
+                </div>
+                <div class="feature-card animate-on-scroll stagger-3">
+                    <div class="icon-container">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h4 class="feature-title">Kesehatan Masyarakat</h4>
+                    <p>Meningkatkan kesehatan warga dengan lingkungan yang bersih</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="glass-container animate-on-scroll">
+            <h2 class="section-title">Dampak Proyek Kami</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">Bersama masyarakat Desa Paku Alam, kami telah mencapai berbagai pencapaian dalam pengelolaan sampah berkelanjutan</p>
+            <div class="stats-container">
+                <div class="stat-card animate-on-scroll stagger-1">
+                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2" style="margin-bottom: 0.5rem;">
+                        <path d="M3 3h7v7H3z"/>
+                        <path d="M14 3h7v7h-7z"/>
+                        <path d="M14 14h7v7h-7z"/>
+                        <path d="M3 14h7v7H3z"/>
+                    </svg>
+                    <div class="stat-number">1.916</div>
+                    <div class="stat-label">Warga Teredukasi</div>
+                </div>
+                <div class="stat-card animate-on-scroll stagger-2">
+                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#43a047" stroke-width="2" style="margin-bottom: 0.5rem;">
+                        <polyline points="23 4 23 10 17 10"/>
+                        <polyline points="1 20 1 14 7 14"/>
+                        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+                    </svg>
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label">Sampah Terpilah</div>
+                </div>
+                <div class="stat-card animate-on-scroll stagger-3">
+                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#fb8c00" stroke-width="2" style="margin-bottom: 0.5rem;">
+                        <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a8 8 0 0 1 4.51 0l-3.95 3.95H2.05A10 10 0 1 0 12 2z"/>
+                        <circle cx="12" cy="12" r="3"/>
+                    </svg>
+                    <div class="stat-number">500kg</div>
+                    <div class="stat-label">Kompos per Bulan</div>
+                </div>
+                <div class="stat-card animate-on-scroll stagger-1">
+                    <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#8e24aa" stroke-width="2" style="margin-bottom: 0.5rem;">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                        <line x1="9" y1="9" x2="9.01" y2="9"/>
+                        <line x1="15" y1="9" x2="15.01" y2="9"/>
+                    </svg>
+                    <div class="stat-number">450+</div>
+                    <div class="stat-label">Keluarga Terlibat</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="glass-container animate-on-scroll">
+            <h2 class="section-title">Tips Pengelolaan Sampah di Rumah</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">Mulai dari rumah Anda! Berikut tips praktis untuk mengelola sampah dengan baik</p>
+            <div class="feature-grid">
+                <div class="feature-card animate-on-scroll stagger-1">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🗑️</div>
+                    <h4 class="feature-title">Pisahkan Sampah</h4>
+                    <p>Sediakan 3 tempat sampah: organik (hijau), anorganik (kuning), dan B3 (merah)</p>
+                </div>
+                <div class="feature-card animate-on-scroll stagger-2">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">♻️</div>
+                    <h4 class="feature-title">Cuci & Keringkan</h4>
+                    <p>Bersihkan kemasan plastik dan kaleng sebelum dibuang untuk memudahkan daur ulang</p>
+                </div>
+                <div class="feature-card animate-on-scroll stagger-3">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🌱</div>
+                    <h4 class="feature-title">Buat Kompos</h4>
+                    <p>Ubah sisa makanan dan daun kering menjadi pupuk organik untuk tanaman</p>
+                </div>
+                <div class="feature-card animate-on-scroll stagger-1">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🛍️</div>
+                    <h4 class="feature-title">Hindari Plastik Sekali Pakai</h4>
+                    <p>Gunakan tas belanja dan botol minum yang dapat dipakai ulang</p>
+                </div>
+                <div class="feature-card animate-on-scroll stagger-2">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🎨</div>
+                    <h4 class="feature-title">Kreasi Barang Bekas</h4>
+                    <p>Manfaatkan botol plastik untuk pot tanaman atau kerajinan tangan</p>
+                </div>
+                <div class="feature-card animate-on-scroll stagger-3">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">📚</div>
+                    <h4 class="feature-title">Edukasi Keluarga</h4>
+                    <p>Ajarkan anak-anak tentang pentingnya membuang sampah pada tempatnya</p>
+                </div>
+            </div>
         </section>
 
         <section id="gallery" class="glass-container">
-            <h2 class="section-title">Galeri Proyek</h2>
+            <h2 class="section-title animate-on-scroll">Galeri Proyek</h2>
             <div class="gallery-grid">
-                <!-- INSERT PHOTOS HERE -->
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll stagger-1">
                     <img src="assets/images/foto1.jpg" alt="Foto Proyek 1">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll stagger-2">
                     <img src="assets/images/foto2.JPG" alt="Foto Proyek 2">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll stagger-3">
                     <img src="assets/images/foto3.jpg" alt="Foto Proyek 3">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll stagger-1">
                     <img src="assets/images/foto4.JPG" alt="Foto Proyek 4">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll stagger-2">
                     <img src="assets/images/foto5.JPG" alt="Foto Proyek 5">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll stagger-3">
                     <img src="assets/images/foto6.jpg" alt="Foto Proyek 6">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll stagger-1">
                     <img src="assets/images/foto7.JPG" alt="Foto Proyek 7">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item animate-on-scroll stagger-2">
                     <img src="assets/images/foto8.JPG" alt="Foto Proyek 8">
                 </div>
             </div>
         </section>
+
+        <section class="glass-container animate-on-scroll" style="background: linear-gradient(135deg, rgba(46, 125, 50, 0.2), rgba(129, 199, 132, 0.2));">
+            <h2 class="section-title">Bergabunglah dengan Kami!</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 2rem; font-size: 1.1rem;">Mari bersama-sama menciptakan lingkungan yang lebih bersih dan sehat untuk generasi mendatang</p>
+            <div style="text-align: center;">
+                <a href="technical.html" class="btn" style="margin: 0.5rem; display: inline-block;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" style="vertical-align: middle; margin-right: 8px;">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                    </svg>
+                    Pelajari Teknis
+                </a>
+                <a href="village.html" class="btn" style="margin: 0.5rem; display: inline-block; background: var(--secondary-color);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" style="vertical-align: middle; margin-right: 8px;">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                    </svg>
+                    Lihat Profil Desa
+                </a>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Proyek Pengelolaan Sampah. Hak Cipta Dilindungi.</p>
+    <footer style="background: rgba(0, 0, 0, 0.2); padding: 3rem 2rem;">
+        <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+            <div>
+                <h3 style="color: var(--primary-color); margin-bottom: 1rem;">🌿 EcoWaste</h3>
+                <p>Proyek pengelolaan sampah berkelanjutan untuk masa depan yang lebih hijau.</p>
+                <p style="margin-top: 1rem; font-size: 0.9rem;">Desa Paku Alam, Kecamatan Sungai Tabuk, Kabupaten Banjar</p>
+            </div>
+            <div>
+                <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Navigasi</h4>
+                <ul style="list-style: none;">
+                    <li style="margin-bottom: 0.5rem;"><a href="index.html" style="color: inherit; text-decoration: none;">🏠 Beranda</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a href="technical.html" style="color: inherit; text-decoration: none;">⚙️ Teknis</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a href="village.html" style="color: inherit; text-decoration: none;">🏘️ Profil Desa</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Hubungi Kami</h4>
+                <p style="margin-bottom: 0.5rem;">📧 Email: ecowaste@pakualam.id</p>
+                <p style="margin-bottom: 0.5rem;">📱 WhatsApp: +62 812-3456-7890</p>
+                <p style="margin-bottom: 0.5rem;">⏰ Senin - Jumat: 08:00 - 16:00</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.2);">
+            <p>&copy; 2025 Proyek Pengelolaan Sampah EcoWaste. Hak Cipta Dilindungi.</p>
+            <p style="font-size: 0.9rem; margin-top: 0.5rem;">Dibuat dengan ❤️ untuk Desa Paku Alam</p>
+        </div>
     </footer>
 
     <script src="js/main.js"></script>

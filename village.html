@@ -25,7 +25,7 @@
     </header>
 
     <main>
-        <section class="glass-container" style="margin-top: 40px;">
+        <section class="glass-container animate-on-scroll" style="margin-top: 40px;">
             <h2 class="section-title">Profil Desa</h2>
             
             <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
@@ -34,15 +34,38 @@
                     <p>Desa Paku Alam terletak di Kecamatan Sungai Tabuk, Kabupaten Banjar, berada di pinggiran sungai Martapura dan berbatasan dengan desa-desa seperti Lok Baintan, Lok Baintan Dalam, dan Sungai Tandipah. Paku Alam Menurut data infografis resmi, populasi penduduk desa ini mencapai 1.916 jiwa (975 laki-laki dan 941 perempuan). Untuk luas wilayah, data yang tersedia di laman desa menunjukkan angka yang tampak kecil dan kemungkinan hanya mencerminkan luas pusat permukiman atau data administratif kecil, yaitu “2.233 m²” sebagai “luas tanah” dalam infografis. Mengenai industri atau mata pencaharian utama, sebagian besar masyarakat desa berprofesi sebagai petani dan pekebun, dengan aktivitas perdagangan hasil bumi dan ikut serta dalam pasar tradisional termasuk pasar terapung sebagai bagian dari ekonomi lokal.</p>
                     <br>
                     <h4>Statistik Utama</h4>
-                    <ul style="list-style: none; margin-top: 1rem;">
-                        <li><strong>Populasi:</strong> 1.916 Penduduk</li>
-                        <li><strong>Luas Wilayah:</strong> 2.233 m²</li>
-                        <li><strong>Industri Utama:</strong> Pertanian & Perkebunan</li>
-                    </ul>
+                    <div class="stats-container" style="margin-top: 1.5rem;">
+                        <div class="stat-card">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2" style="margin-bottom: 0.5rem;">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                            <div class="stat-number">1.916</div>
+                            <div class="stat-label">Penduduk</div>
+                        </div>
+                        <div class="stat-card">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2" style="margin-bottom: 0.5rem;">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <div class="stat-number">2.233</div>
+                            <div class="stat-label">m² Luas Wilayah</div>
+                        </div>
+                        <div class="stat-card">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2" style="margin-bottom: 0.5rem;">
+                                <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a8 8 0 0 1 4.51 0l-3.95 3.95H2.05A10 10 0 1 0 12 2z"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                            <div class="stat-number">🌾</div>
+                            <div class="stat-label">Pertanian & Perkebunan</div>
+                        </div>
+                    </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
                      <!-- INSERT VILLAGE MAP OR PHOTO HERE -->
-                    <div class="gallery-item" style="height: 300px; padding: 0; border: none; background: none;">
+                    <div class="gallery-item animate-on-scroll" style="height: 600px; padding: 5; border: none; background: none;">
                         <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.666406479766!2d106.6647054758678!3d-6.175392993811891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9b0b0b0b0b1%3A0x0!2sDesa%20Paku%20Alam!5e0!3m2!1sid!2sid!4v1701600000000!5m2!1sid!2sid" 
                             width="100%" 
@@ -57,23 +80,90 @@
             </div>
         </section>
 
-        <section class="glass-container">
-            <h2 class="section-title">Keterlibatan Masyarakat</h2>
-            <p>Keberhasilan proyek ini bergantung pada partisipasi aktif warga desa kami. Mulai dari memilah sampah di sumbernya hingga menjadi sukarelawan untuk kegiatan bersih-bersih, semangat kebersamaan adalah kekuatan pendorong di balik masa depan kita yang lebih bersih.</p>
-            
-            <div class="gallery-grid" style="margin-top: 2rem;">
-                <div class="gallery-item">
-                    <span>Pertemuan Warga</span>
+        <section class="glass-container animate-on-scroll">
+            <h2 class="section-title">Keunggulan Desa Paku Alam</h2>
+            <div class="feature-grid">
+                <div class="feature-card animate-on-scroll stagger-1">
+                    <div class="icon-container">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <polyline points="9 22 9 12 15 12 15 22"/>
+                        </svg>
+                    </div>
+                    <h4 class="feature-title">Lokasi Strategis</h4>
+                    <p>Terletak di pinggiran sungai Martapura dengan akses ke pasar tradisional dan pasar terapung</p>
                 </div>
-                <div class="gallery-item">
-                    <span>Kerja Bakti</span>
+                <div class="feature-card animate-on-scroll stagger-2">
+                    <div class="icon-container">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                        </svg>
+                    </div>
+                    <h4 class="feature-title">Mata Pencaharian</h4>
+                    <p>Mayoritas warga berprofesi sebagai petani dan pekebun dengan hasil bumi yang melimpah</p>
+                </div>
+                <div class="feature-card animate-on-scroll stagger-3">
+                    <div class="icon-container">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h4 class="feature-title">Sejarah Perjuangan</h4>
+                    <p>Basis militer lokal pada masa penjajahan dengan monumen bersejarah Alam Roh dan Alri Divisi IV</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="glass-container animate-on-scroll">
+            <h2 class="section-title">Dokumentasi kawasan desa</h2>
+            <p>Kawasan Desa Paku Alam terkenal dengan kawasan Alam Roh dan Monumen Alri Divisi IV, Desa paku alam pada masa penjajahan menjadi basisi militer lokal, menjadi tempat beristirahat, berlatih, hingga menyusun strategi untuk menyerang penjajah, kawasan ini menjadi saksi bisu perjuangan nenek moyang kita dalam upaya menggapai kemerdekaan.</p>
+            
+            <div class="gallery-grid" style="margin-top: 2rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+                <div class="gallery-item animate-on-scroll stagger-1">
+                    <img src="assets/images/foto9.jpg" alt="Foto Proyek 1">
+                </div>
+                <div class="gallery-item animate-on-scroll stagger-2">
+                    <img src="assets/images/foto10.jpg" alt="Foto Proyek 1">
+                </div>
+                <div class="gallery-item animate-on-scroll stagger-1">
+                    <img src="assets/images/foto11.jpg" alt="Foto Proyek 1">
+                </div>
+                <div class="gallery-item animate-on-scroll stagger-2">
+                    <img src="assets/images/foto12.jpg" alt="Foto Proyek 1">
+                </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Proyek Pengelolaan Sampah. Hak Cipta Dilindungi.</p>
+    <footer style="background: rgba(0, 0, 0, 0.2); padding: 3rem 2rem;">
+        <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+            <div>
+                <h3 style="color: var(--primary-color); margin-bottom: 1rem;">🌿 EcoWaste</h3>
+                <p>Proyek pengelolaan sampah berkelanjutan untuk masa depan yang lebih hijau.</p>
+                <p style="margin-top: 1rem; font-size: 0.9rem;">Desa Paku Alam, Kecamatan Sungai Tabuk, Kabupaten Banjar</p>
+            </div>
+            <div>
+                <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Navigasi</h4>
+                <ul style="list-style: none;">
+                    <li style="margin-bottom: 0.5rem;"><a href="index.html" style="color: inherit; text-decoration: none;">🏠 Beranda</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a href="technical.html" style="color: inherit; text-decoration: none;">⚙️ Teknis</a></li>
+                    <li style="margin-bottom: 0.5rem;"><a href="village.html" style="color: inherit; text-decoration: none;">🏘️ Profil Desa</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="color: var(--primary-color); margin-bottom: 1rem;">Hubungi Kami</h4>
+                <p style="margin-bottom: 0.5rem;">📧 Email: ecowaste@pakualam.id</p>
+                <p style="margin-bottom: 0.5rem;">📱 WhatsApp: +62 812-3456-7890</p>
+                <p style="margin-bottom: 0.5rem;">⏰ Senin - Jumat: 08:00 - 16:00</p>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.2);">
+            <p>&copy; 2025 Proyek Pengelolaan Sampah EcoWaste. Hak Cipta Dilindungi.</p>
+            <p style="font-size: 0.9rem; margin-top: 0.5rem;">Dibuat dengan ❤️ untuk Desa Paku Alam</p>
+        </div>
     </footer>
 
     <script src="js/main.js"></script>

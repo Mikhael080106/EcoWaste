@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Background</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .test-hero {
+            height: 100vh;
+            background-color: #2e7d32;
+            background-image: url('assets/images/foto1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .test-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, 
+                rgba(46, 125, 50, 0.7) 0%, 
+                rgba(129, 199, 132, 0.6) 50%, 
+                rgba(168, 255, 120, 0.5) 100%);
+            z-index: 1;
+        }
+        
+        .test-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            color: white;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+        }
+        
+        p {
+            font-size: 1.2rem;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="test-hero">
+        <div class="test-content">
+            <h1>Test Background Image</h1>
+            <p>Jika Anda melihat gambar di belakang teks ini, background berhasil!</p>
+            <p style="margin-top: 1rem;">Jika hanya warna hijau, ada masalah dengan path gambar.</p>
+        </div>
+    </div>
+</body>
+</html>
